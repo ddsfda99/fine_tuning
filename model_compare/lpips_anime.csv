@@ -1,0 +1,16 @@
+index,prompt,mode,lpips
+1,A small house in a field of sunflowers,lora,0.7474144101142883
+1,A small house in a field of sunflowers,lora+dreambooth,0.8518372774124146
+1,A small house in a field of sunflowers,textual_inversion,0.8571807742118835
+2,A rainy night in Tokyo city,lora,0.7819994688034058
+2,A rainy night in Tokyo city,lora+dreambooth,0.6629405617713928
+2,A rainy night in Tokyo city,textual_inversion,0.7483010292053223
+3,A portrait of a young woman with a blue scarf,lora,0.7972151637077332
+3,A portrait of a young woman with a blue scarf,lora+dreambooth,0.7962241172790527
+3,A portrait of a young woman with a blue scarf,textual_inversion,0.7998318076133728
+4,A medieval castle on a hill,lora,0.7946155071258545
+4,A medieval castle on a hill,lora+dreambooth,0.6846184730529785
+4,A medieval castle on a hill,textual_inversion,0.8116756677627563
+5,A desert landscape with a cactus and sunset,lora,0.8480762243270874
+5,A desert landscape with a cactus and sunset,lora+dreambooth,0.8601565361022949
+5,A desert landscape with a cactus and sunset,textual_inversion,0.921614408493042
