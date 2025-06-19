@@ -10,9 +10,20 @@ fine_tuning/
 │   └── van_gogh_lora/
 ├── models/ 
 │   ├── stable-diffusion-v1-5/
-├── outputs/                     # 保存的模型权重与生成图片
-│   ├── monet_lora/
-│   └── van_gogh_lora/
+├── outputs/                              # 微调模型权重
+│   ├── lora_anime/                       
+│   │   └── pytorch_lora_weights.safetensors
+│   ├── lora_dreambooth_anime/          
+│   │   └── pytorch_lora_weights.safetensors
+│   ├── lora_francis/                   
+│   │   └── pytorch_lora_weights.safetensors
+│   ├── lora_monet/                    
+│   │   └── pytorch_lora_weights.safetensors
+│   ├── lora_vangogh/                   
+│   │   └── pytorch_lora_weights.safetensors
+│   └── textual_inversion_anime/        
+│       ├── learned_embeds.safetensors
+│       └── learned_embeds-steps-500.safetensors
 ├── scripts/                     # 启动训练的 shell 脚本
 │   ├── train_textual_inversion.sh
 │   └── train_vangogh_ti.sh
@@ -79,3 +90,15 @@ chmod +x ./scripts/monet/train_lora_monet.sh
 
 #### lpips对比图
 ![alt text](model_compare/lpips_comparison_anime.png)
+
+### 项目资料
+AI图像生成项目录屏演示：AI图像生成项目录屏演示：https://www.bilibili.com/video/BV1tfNszmEpp/?vd_source=de633d4318be770bdffc3275f1e20c2c
+
+或者在https://github.com/ddsfda99/ai-image/blob/main/%E9%A1%B9%E7%9B%AE%E6%BC%94%E7%A4%BA.mp4 下载观看
+
+项目展示ppt链接：https://github.com/ddsfda99/ai-image/blob/main/AI%E5%88%9B%E6%84%8F%E5%9B%BE%E5%83%8F%E7%94%9F%E6%88%90%E9%A1%B9%E7%9B%AEppt%E5%B1%95%E7%A4%BA.pptx
+
+AI图像生成项目地址：https://github.com/ddsfda99/ai-image
+
+微调训练+模型比较分析项目地址：https://github.com/ddsfda99/fine_tuning/tree/main
+
