@@ -78,4 +78,4 @@ chmod +x ./scripts/monet/train_lora_monet.sh
 | Textual Inversion | 新Token的Embedding     | 仅嵌入层                      | 新概念注入（如特定物品、风格）  | 参数极少，可跨任务通用       | 精度有限，不易表达复杂风格     |
 
 #### lpips对比图
-![alt text](lpips_comparison_anime.png)
+![alt text](model_compare/lpips_comparison_anime.png)
